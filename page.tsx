@@ -1,5 +1,6 @@
-import CSVImport from "../csv-import"
+"use client";
+import CSVImport from "../../csv-import";
 
 export default function ImportPage() {
-  return <CSVImport />
+  return <CSVImport />;
 }
