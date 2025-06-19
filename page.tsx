@@ -1,6 +1,3 @@
-"use client";
-import CSVImport from "../../csv-import";
-
-export default function ImportPage() {
-  return <CSVImport />;
+export default function HomePage() {
+  return <main><h1>Welcome to Volt Kick!</h1></main>
 }
