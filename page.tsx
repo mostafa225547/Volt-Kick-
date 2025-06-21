@@ -1,3 +1,4 @@
+// pages/index.tsx
 export default function HomePage() {
-  return <main><h1>Welcome to Volt Kick!</h1></main>
+  return <h1>Hello from Volt Kick!</h1>;
 }
