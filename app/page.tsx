@@ -1,3 +1,5 @@
-export default function HomePage() {
-  return <h1>Hello from Volt Kick App Router!</h1>;
+import ImportPage from "./import/page";
+
+export default function Home() {
+  return <ImportPage />;
 }
