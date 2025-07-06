@@ -1,6 +1,6 @@
-"use client"; // لازم عشان نضمن تفاعل React في المتصفح
+"use client";
 
-import CSVImport from "../csv-import";
+import CSVImport from "../csv-import"; // أو "./csv-import" لو في نفس مجلد app
 
 export default function Home() {
   return <CSVImport />;
